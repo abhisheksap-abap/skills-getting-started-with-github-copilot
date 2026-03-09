@@ -41,6 +41,44 @@ activities = {
     }
 }
 
+#Add 2 more sports related activities, 2 more artistic
+#activities, and 2 more intellectual activities.
+activities["Basketball Team"] = {
+    "description": "Play competitive basketball games",
+    "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
+    "max_participants": 15,
+    "participants": []
+}
+activities["Soccer Club"] = {
+    "description": "Play competitive soccer games",
+    "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+    "max_participants": 15,
+    "participants": []
+}
+activities["Drama Club"] = {
+    "description": "Perform plays and develop acting skills",
+    "schedule": "Fridays, 3:30 PM - 5:00 PM",
+    "max_participants": 12,
+    "participants": []
+}
+activities["Art Studio"] = {
+    "description": "Create and explore various art forms",
+    "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+    "max_participants": 12,
+    "participants": []
+}
+activities["Debate Team"] = {
+    "description": "Participate in debate competitions",
+    "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
+    "max_participants": 12,
+    "participants": []
+}
+activities["Science Olympiad"] = {
+    "description": "Compete in science competitions",
+    "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+    "max_participants": 12,
+    "participants": []
+}
 
 @app.get("/")
 def root():
